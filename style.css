@@ -1,0 +1,108 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    line-height: 1.5;
+    
+}
+
+.Block{
+    text-align: center;
+    border: 5px solid ;
+    border-image: linear-gradient(45deg,rgba(253,187,45,1),rgba(34,193,195,1) ) 1;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block h1{
+    color: white;
+}
+
+.button_click{
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+    width: 150px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #403c3c;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.reset{
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+    width: 150px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0077cc;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.text{
+    font-size: 24px;
+}
+
+.results{
+    font-size: 24px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.change{
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #403c3c;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
